@@ -1,0 +1,121 @@
+@media (max-width: 1000px) {
+
+    .sections a,
+    .line,
+    .info_2 {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .home {
+        padding: 65px 26px 83px;
+    }
+
+    .sections {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .sections .name {
+        margin-bottom: 23px;
+    }
+
+    .sections {
+        margin-bottom: 37px;
+    }
+
+    .programms {
+        flex-wrap: wrap;
+    }
+
+    .progrann_item {
+        margin-bottom: 82px;
+    }
+
+    .Portfolio {
+        padding: 81px 30px;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+    }
+
+    .Contacts .icons a {
+        margin-bottom: 20px;
+    }
+
+    .pos {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .window img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .references {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .window {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        overflow-y: scroll;
+        padding: 66px 28px 114px 26px;
+        font-size: 34px;
+    }
+
+    .references {
+        width: 100%;
+    }
+
+    .references a {
+        margin-bottom: 68px;
+        color: #828282;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .references a:hover {
+        color: #000;
+    }
+
+    .lang .active {
+        color: #000;
+    }
+
+    .lang {
+
+        height: 18px;
+        color: #828282;
+        font-weight: bold;
+        transform: rotate(90deg) translateY(-80px);
+    }
+
+    .lang_1 {
+        width: 100%;
+        margin-top: 150px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .window img {
+        position: absolute;
+        top: 75px;
+        right: 28px;
+    }
+}

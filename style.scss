@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.home {
+    padding: 33px 250px 104px;
+
+    .sections {
+        a {
+            font-size: 18px;
+            color: #828282;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    hr {
+        margin-bottom: 40px;
+    }
+
+    .pos .sections {
+        margin-bottom: 31px;
+
+        .name {
+            width: 124px;
+            margin: 0;
+            font-size: 47px;
+            font-weight: bold;
+        }
+
+        .info_1 {
+            width: 145px;
+            font-size: 18px;
+            display: flex;
+            justify-items: end;
+        }
+
+        .info_2 {
+            font-size: 16px;
+            color: #828282;
+            font-weight: bold;
+
+            .active {
+                color: black;
+            }
+        }
+    }
+}
+
+.about_me {
+    padding: 120px 480px 107px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .text_one {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+.skills {
+    padding: 91px 255px 110px;
+    text-align: center;
+
+    h1 {
+        font-size: 34px;
+        margin-bottom: 69px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 83px;
+    }
+
+    .programms {
+        display: block;
+        justify-content: center;
+
+    }
+}

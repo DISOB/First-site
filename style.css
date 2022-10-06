@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.home {
+  padding: 33px 250px 104px;
+}
+.home .sections {
+  margin-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home .sections a {
+  font-size: 18px;
+  color: #828282;
+  font-weight: bold;
+  text-decoration: none;
+}
+.home .sections a:hover {
+  color: black;
+}
+.home hr {
+  margin-bottom: 40px;
+}
+.home .pos .sections {
+  margin-bottom: 31px;
+}
+.home .pos .sections .name {
+  width: 124px;
+  margin: 0;
+  font-size: 47px;
+  font-weight: bold;
+}
+.home .pos .sections .info_1 {
+  width: 145px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: end;
+}
+.home .pos .sections .info_2 {
+  font-size: 16px;
+  color: #828282;
+  font-weight: bold;
+}
+.home .pos .sections .info_2 .active {
+  color: black;
+}
+
+.about_me {
+  padding: 120px 480px 107px;
+  background-color: #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.about_me h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.about_me .text_one {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  padding: 91px 255px 110px;
+  text-align: center;
+}
+.skills h1 {
+  font-size: 34px;
+  margin-bottom: 69px;
+}
+.skills p {
+  font-size: 18px;
+  margin-bottom: 83px;
+}
+.skills .programms {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
