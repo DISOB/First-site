@@ -84,13 +84,105 @@ body {
   font-size: 34px;
   margin-bottom: 69px;
 }
-.skills p {
+.skills .text {
   font-size: 18px;
   margin-bottom: 83px;
 }
 .skills .programms {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.skills .programms .progrann_item {
+  width: 166px;
+  font-size: 14px;
+  color: #828282;
+  font-weight: bold;
+  text-align: center;
+}
+.skills .programms .progrann_item .square {
+  margin-bottom: 24px;
+}
+.skills .programms .progrann_item .name {
+  margin-bottom: 40px;
+}
+.skills .programms .progrann_item .name_F {
+  margin-bottom: 57px;
+}
+.skills .programms .progrann_item .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Portfolio {
+  padding: 113px 254px 100px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+.Portfolio h1 {
+  font-size: 43px;
+  font-weight: bold;
+  margin-bottom: 47px;
+}
+.Portfolio .portfolio_items {
+  font-size: 22px;
+  font-weight: bold;
+}
+.Portfolio .portfolio_items img {
+  margin-bottom: 45px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.Portfolio .portfolio_items .pic {
+  margin-bottom: 99px;
+}
+.Portfolio .portfolio_items .pic:last-child {
+  margin-bottom: 0px;
+}
+
+.Contacts {
+  padding: 114px 550px 123px;
+  text-align: center;
+}
+.Contacts h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Contacts .text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.Contacts .button {
+  padding: 13px 30px;
+  background-color: black;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 86px;
+}
+.Contacts .button:hover {
+  opacity: 0.7;
+}
+.Contacts .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 46px;
+}
+.Contacts .people {
+  font-size: 14px;
+  color: #828282;
+  font-weight: medium;
 }

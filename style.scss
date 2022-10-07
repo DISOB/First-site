@@ -83,14 +83,118 @@ body {
         margin-bottom: 69px;
     }
 
-    p {
+    .text {
         font-size: 18px;
         margin-bottom: 83px;
     }
 
     .programms {
-        display: block;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
 
+        .progrann_item {
+            width: 166px;
+            // text-align: center;
+
+
+            .square {
+
+                margin-bottom: 24px;
+            }
+
+            font-size: 14px;
+            color: #828282;
+            font-weight: bold;
+            text-align: center;
+
+            .name {
+                margin-bottom: 40px;
+            }
+
+            .name_F {
+                margin-bottom: 57px;
+            }
+
+            .stars {
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+
+        }
+    }
+}
+
+.Portfolio {
+    padding: 113px 254px 100px;
+    background-color: #F6F6F6;
+    text-align: center;
+
+    h1 {
+        font-size: 43px;
+        font-weight: bold;
+        margin-bottom: 47px;
+    }
+
+    .portfolio_items {
+        font-size: 22px;
+        font-weight: bold;
+
+        img {
+            margin-bottom: 45px;
+            justify-content: center;
+        }
+
+        .pic {
+            margin-bottom: 99px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+.Contacts {
+    padding: 114px 550px 123px;
+    text-align: center;
+
+    h1 {
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .button {
+        padding: 13px 30px;
+        background-color: black;
+        border-radius: 40px;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 86px;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 46px;
+    }
+
+    .people {
+        font-size: 14px;
+        color: #828282;
+        font-weight: medium;
     }
 }
