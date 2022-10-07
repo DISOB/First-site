@@ -152,6 +152,14 @@ body {
             &:last-child {
                 margin-bottom: 0px;
             }
+
+            a {
+                color: black;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
         }
     }
 }

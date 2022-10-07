@@ -147,6 +147,12 @@ body {
 .Portfolio .portfolio_items .pic:last-child {
   margin-bottom: 0px;
 }
+.Portfolio .portfolio_items .pic a {
+  color: black;
+}
+.Portfolio .portfolio_items .pic a:hover {
+  opacity: 0.5;
+}
 
 .Contacts {
   padding: 114px 550px 123px;
